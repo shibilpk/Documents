@@ -1,0 +1,385 @@
+﻿Admin
+    1. Medico
+        a. Create Doctor
+            i. Doctor Name
+            ii. Email Address
+            iii. password
+            iv. Designation
+            v. Degrees
+            vi. Department
+            vii. Specialist
+            viii. Doctor Experience
+            ix. Service Place
+            x. Birth date
+            xi. Phone Number
+            xii. Gender
+            xiii.  Male
+            xiv.  Female
+            xv. Blood Group                               
+            xvi. Address
+            xvii. About Me
+            xviii. Picture
+        b. Doctor List
+            i. Picture
+            ii. Doctor name
+            iii. Email address
+            iv. action
+    2. Patient
+        a. Add New Patient
+            i. Title
+            ii. Family Name
+            iii. Given name
+            iv. Gender
+            v.  Male  Female  Others
+            vi. Birth date
+            vii. Email Address
+            viii. Phone Number
+            ix. Mobile Number
+            x. Address
+            xi. Suburb
+            xii. Post Code
+            xiii. Blood Group                                                                                                                        
+            xiv. Picture
+            xv. Emergency Contact
+            xvi. Title
+            xvii. Family Name
+            xviii. Given name
+            xix. Phone Number
+            xx. Mobile Number
+            xxi. Medical Information
+            xxii. Do you have allergies to any medicine or food ?
+            xxiii. Do you have a tendency to bleed or bruise easily ?
+            xxiv. Please select Illness as following
+            xxv. Heart Diseases                                                                                       
+            xxvi. High Blood Pressure                                           
+            xxvii. Any Accidents                      
+            xxviii. Diabetic                                       
+            xxix. Any Surgeries
+            xxx. Others          
+            xxxi. Do you Consider yourself to be in a high risk group for infectious diseases?
+            xxxii. Please list any relevant family medical history and social history
+            xxxiii. Please list your current medical conditions and medications
+        b. Patient List
+            i. Picture
+            ii. Patient id
+            iii. Name (family given)
+            iv. Phone number
+            v. Birth date
+            vi. Action
+				
+    3. Appointment
+        a. Create Appointment
+            i. Phone
+            ii. Date 
+            iii. Doctor                         
+            iv. Choose Serial :Note
+        b. Appointment List
+            i. Patient id
+            ii. Patient Name
+            iii. Phone number
+            iv. Appointment id
+            v. Date
+            vi. Appointment Time
+            vii. Action
+    4. Prescription
+        a. Prescription List
+            i. Picture
+            ii. Patient id
+            iii. Patient Name
+            iv. Phone number
+            v. Gender
+            vi. Action
+    5. Payment
+        a. Payment Setup
+            i. Paypal Business Email
+            ii. Amount
+        b. Payment List
+            i. Patient id
+            ii. Appointment id
+            iii. Email address
+            iv. Amount
+            v. Date
+            vi. Notes
+            vii. Action
+    6. Invoice
+        a. Add New Invoice
+            i. Phone Number 
+            ii. Patient Name 
+            iii. Address 
+            iv. Date 
+            v. Medico
+            vi. Service info
+            vii. Quantity
+            viii. Price
+            ix. Discount
+            x. total
+            xi. Action
+            xii. Payment Notes
+            xiii. Select payment method                               
+            xiv. Payment Method Notes 
+        b. Invoice List
+            i. Sl NO
+            ii. Invoice id
+            iii. Patind name
+            iv. Grand total
+            v. Due
+            vi. Date
+            vii. Action
+        c. Add New Service
+            i. Service Name
+            ii. Price
+            iii. Description
+            iv. Tax
+            v. Service Model
+    7. Schedule
+        a. Add Schedule
+            i. Select Doctor                         
+            ii. Select Day 
+            iii. Set Time 
+            iv. Per Patient Time 
+            v. Visibility 
+        b. Schedule List
+            i. Sl
+            ii. Doctor Name
+            iii. Start Time
+            iv. End Time
+            v. Per patient Time
+            vi. Action
+    8. Emergency Stop
+        a. Emergency Stop List
+            i. Full name
+            ii. Phone number
+            iii. Specialist
+            iv. Stop date
+            v. Shedule date
+            vi. Action
+    9. Setup Data
+        a. Add Language
+            i. Language name
+            ii. Action
+        b. Add Section
+            i. Language                    
+            ii. Section Name 
+        c. Add Disease
+            i. Language Name                              
+            ii. Section Name                                    
+            iii. Disease Name
+        d. Add Category
+            i. Language Name                        
+            ii. Section Name 
+            iii. Disease Name 
+                                            
+            iv. Category Name
+        e. Add Classification
+            i. Language Name                              
+            ii. Category                                                                             
+            iii. Classification
+        f. Add Medicine
+            i. Language Name             
+            ii. Category                                                                            
+            iii. Classification                                                                      
+            iv. Medicine Name 
+            v. Symptom Name 
+            vi. Treatment Name 
+            vii. Diagnosis
+        g. Medicine List
+            i. Medicine Name 
+            ii. Treatment
+            iii. Classification       
+            iv. Diagnosis
+            v. Action      
+        h. Add Herbs
+            i. Language Name                                    
+            ii. Herbs Name
+        i. Add Medicine Herbs
+            i. Herbs Name
+            ii. Medicine Name
+            iii.  Name                                    
+            iv. Herbs Name
+            v. Medicine Name
+        j. Herbs Medicine List
+            i. Herbs Name
+            ii. Medicine Name
+            iii. Language
+            iv. Action
+    10. Users
+        a. Add New User
+            i. 
+            ii. Phone:
+            iii. Gender
+            iv.  Male
+            v.  Female
+            vi. Blood Group                                  
+            vii. Address:
+            viii. Picture:Full Name :
+            ix. Email:
+            x. Password:
+            xi. Birth Date:
+        b. user List
+            i. Picture
+            ii. Full name
+            iii. Phone number
+            iv. Blood group
+            v. Address
+            vi. Birth date
+            vii. Gender
+            viii. Action
+    11. Web Setting
+        a. Header Setup
+            i. Phone Number
+            ii. Email Address
+            iii. Address
+            iv. Time Zone Setup 
+            v. Facebook Link
+            vi. twitter Link
+            vii. Youtube Link
+            viii. Linkedin Link
+            ix. Google Link
+            x. Youtube Channel id
+            xi. Working Description
+            xii. Hotline
+            xiii. Copyright
+            xiv. Logo
+            xv. Footer Logo
+            xvi. Favicon
+            xvii. Website Title
+            xviii. Appointment Image
+            xix. About Image
+            xx. Google Map
+            xxi. Total Appointment details
+            xxii. Today Appointment Details
+            xxiii. Total Patient Details
+            xxiv. Twitter Pos
+    12. SMS
+        a. Gateway Setup
+            i. Status
+            ii. Provider
+            iii. User name
+            iv. Password
+            v. Sender
+            vi. action
+        b. Template
+            i. Template Name 
+            ii. Template 
+        c. Sms Schedule
+            i. Schedule Name 
+            ii. Template :                                                              
+            iii. Time :
+        d. Send Custom Sms
+            i. Receiver 
+            ii. Provider                                      
+            iii. Template 
+        e. Custom SMS Report
+            i. Receiver
+            ii. Provider
+            iii. Date time
+            iv. Message
+        f. Auto SMS Report
+            i. Receiver
+            ii. Date time
+            iii. Message
+    13. Email Setup
+        a. Email Schedule Setup
+            i. Schedule Name 
+            ii. Template :                                                              
+            iii. Time :
+        b. Email List
+            i. Receiver email
+            ii. Date time
+        c. Send Custom Email
+            i. Reciver Email 
+            ii. Subject 
+            iii. Email Template 
+        d. Email Template
+            i. Template Name :
+            ii. Template 
+        e. Email Template List
+            i. Actives
+            ii. Template name
+            iii. action
+        f. Email Configuration
+            i. Protocol 
+            ii. MailPath 
+            iii. MailType 
+            iv. Sender Email 
+            v. Print Pattern
+        g. Setup Pattern
+            i. Header Blank
+            ii. Footer blank
+            iii. Side Content
+            iv. Content Blank
+            v. 
+        h. Setup Pattern List
+            i. Header Blank
+            ii. Footer blank
+            iii. Side Content
+            iv. Content Blank
+            v. action
+    14. Language Setting
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Modification 
+Admin
+    • Salary details
+    • Medicine description
+    • Edit details
+    • Available medicine details
+    • Staff Details
+    • Receipts
+    • Emergency queries
+    • List view and Grid view
+    • View feedback and reply
+    • Financial statistics
+    • Insurance and legal procedures
+    • Admission and discharge summary
+
+
+Doctor
+    •  Appointment and notify
+    • Lab results 
+    • Available medicine details
+    • Leave request
+    • Swap appointment
+    • Salary details
+	
+Staff
+    • Salary status
+    • Shift schedule
+    • Leave request
+    • 
+
+User
+    • Feedback
+    • Registration
+    • Book and appointment & modification
+    • Upload previous documents
+    • Admission and discharge summary
+	
+
