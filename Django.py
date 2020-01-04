@@ -43,12 +43,10 @@
         a. python manage.py createsuperuser
             i. shibil -> shibil789
     3. Migration comments
-        a. python manage.py makemigrations
-        b. python manage.py migrate
+        a. python manage.py makemigrations && python manage.py migrate
         c. python manage.py loaddata initial_data user_groups permissions notification
     4. Delete migration
-        a. find . -path "*/migrations/*.py" -not -name "__init__.py" -delete
-        b. find . -path "*/migrations/*.pyc"  -delete
+        a. find . -path "*/migrations/*.py" -not -name "__init__.py" -delete && find . -path "*/migrations/*.pyc"  -delete
     5. Read and write from file
         a. pip freeze > r.txt
         b. pip install -r r.txt
